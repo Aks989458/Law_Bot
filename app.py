@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 
 from ingest.pdf_to_text import convert_all
@@ -67,3 +66,4 @@ if query:
                 answer = generate_answer(query, final_chunks)
 
         st.write(answer)
+
