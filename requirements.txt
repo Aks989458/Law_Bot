@@ -1,5 +1,5 @@
 streamlit
-pymupdf==1.23.8
+pymupdf-binary==1.23.8
 torch
 transformers
 sentence-transformers
@@ -7,3 +7,4 @@ faiss-cpu
 rank-bm25
 numpy
 tqdm
+
