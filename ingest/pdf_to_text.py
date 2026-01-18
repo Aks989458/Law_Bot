@@ -1,4 +1,4 @@
-import fitz  # PyMuPDF
+import pymupdf as fitz
 from pathlib import Path
 
 def pdf_to_text(pdf_path):
@@ -20,3 +20,4 @@ def convert_all():
 
 if __name__ == "__main__":
     convert_all()
+
