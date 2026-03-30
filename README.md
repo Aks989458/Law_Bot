@@ -128,7 +128,7 @@ Automatically handled inside main.py:
 
 - BM25 → keyword search
 
-## 5️⃣ (Optional) Train LoRA for Legal Domain
+## 5️⃣ (Optional) Train QLoRA for Legal Domain
 
 ```bash
 python llm/lora_train.py
